@@ -26,7 +26,8 @@ export function randomKey() {
   return '_' + Math.random().toString(36).substring(2, 9)
 }
 
----функции с датамиexport const getNumberOfDays = (start, end) => {
+---функции с датами
+  export const getNumberOfDays = (start, end) => {
   const date1 = new Date(start)
   const date2 = new Date(end)
   const oneDay = 1000 * 60 * 60 * 24
